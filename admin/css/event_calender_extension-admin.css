@@ -1,0 +1,63 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .cust-header{
+ 	float: left;
+ 	width: 100%;
+ 	margin: 0 0 15px;
+ }
+.cust-header p.search-box{
+ 	margin: 0 0 0 15px;
+}
+ .cust-header #stext{
+ 	width: 130px;
+ }
+.ext-nav{
+	float: right;
+    height: 28px;
+    margin-top: 10px;
+    cursor: default;
+    color: #555;
+}
+.ext-nav .t_no{
+	display: inline-block;
+	margin-right: 7px;
+}
+.ext-nav ul{
+	display: inline-block;
+	list-style: : none;
+	margin: 0;
+	padding: 0;
+}
+.ext-nav ul li{
+	display: inline-block;
+	height: 16px;
+    color: #a0a5aa;
+	min-width: 17px;
+    border: 1px solid #ccc;
+    padding: 4px 4px 5px;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0 3px;
+}
+.ext-nav ul li a{
+	color: #a0a5aa;
+	text-decoration: none;
+	font-size: 16px;
+}
+.ext-nav ul li:hover{
+	cursor: pointer;
+}
+.ext-nav ul li:hover,
+.ext-nav ul li.active{
+	border-color: #00a0d2;
+	background: #00a0d2;
+}
+.ext-nav ul li:hover a,
+.ext-nav ul li.active a{
+    color: #fff;
+    box-shadow: none;
+    outline: 0;
+   }
